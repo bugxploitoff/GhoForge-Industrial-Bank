@@ -69,6 +69,7 @@ const index = () => {
   } catch (error) {
       // Display error alert
       alert('Error: ' + error.message);
+      setButtonDisabled(false);
   }
   
   };
